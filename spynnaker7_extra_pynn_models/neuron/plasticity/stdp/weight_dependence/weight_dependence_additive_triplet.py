@@ -5,7 +5,6 @@ from spynnaker_extra_pynn_models.neuron.plasticity.stdp.wight_dependence.\
 
 class WeightDependenceAdditiveTriplet(CommonWeightDependenceAdditiveTriplet):
 
-
     # noinspection PyPep8Naming
     def __init__(
             self, w_min=0.0, w_max=1.0, A_plus=0.01, A_minus=0.01,
