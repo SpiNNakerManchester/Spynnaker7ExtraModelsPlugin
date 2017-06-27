@@ -21,7 +21,8 @@ before_install:
   - pip install --upgrade git+git://github.com/SpiNNakerManchester/sPyNNaker7.git@$TRAVIS_BRANCH || pip install --upgrade git+git://github.com/SpiNNakerManchester/sPyNNaker7.git@master
   - pip install --upgrade git+git://github.com/SpiNNakerManchester/sPyNNakerExtraModelsPlugin.git@$TRAVIS_BRANCH || pip install --upgrade git+git://github.com/SpiNNakerManchester/sPyNNakerExtraModelsPlugin.git@master
 
-#install:
+install:
+  - pip install flake8
 #  - pip install -r requirements-test.txt
 #  - python ./setup.py install
 
