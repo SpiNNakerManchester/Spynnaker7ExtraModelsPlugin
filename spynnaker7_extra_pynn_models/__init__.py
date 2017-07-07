@@ -3,31 +3,23 @@ from spynnaker.pyNN.abstract_spinnaker_common import AbstractSpiNNakerCommon
 from spynnaker_extra_pynn_models import model_binaries
 
 # spynnaker 8 extra models
-from spynnaker_extra_pynn_models.neuron.builds\
-    .if_cond_exp_stoc import IFCondExpStoc
-from spynnaker_extra_pynn_models.neuron.builds\
-    .if_curr_delta import IFCurrDelta
-from spynnaker_extra_pynn_models.neuron.builds\
-    .if_curr_exp_ca2_adaptive import IFCurrExpCa2Adaptive
+from spynnaker_extra_pynn_models.neuron.builds import IFCondExpStoc
+from spynnaker_extra_pynn_models.neuron.builds import IFCurrDelta
+from spynnaker_extra_pynn_models.neuron.builds import IFCurrExpCa2Adaptive
 
 # plastic timing spynnaker 8
 from spynnaker_extra_pynn_models.neuron.plasticity.stdp.timing_dependence \
-    .timing_dependence_recurrent \
     import TimingDependenceRecurrent as RecurrentRule
 from spynnaker_extra_pynn_models.neuron.plasticity.stdp.timing_dependence \
-    .timing_dependence_spike_nearest_pair import \
-    TimingDependenceSpikeNearestPair as SpikeNearestPair
+    import TimingDependenceSpikeNearestPair as SpikeNearestPair
 from spynnaker_extra_pynn_models.neuron.plasticity.stdp.timing_dependence \
-    .timing_dependence_vogels_2011 \
     import TimingDependenceVogels2011 as Vogels2011Rule
 from spynnaker_extra_pynn_models.neuron.plasticity.stdp.timing_dependence \
-    .timing_dependence_pfister_spike_triplet import \
-    TimingDependencePfisterSpikeTriplet as PfisterSpikeTriplet
+    import TimingDependencePfisterSpikeTriplet as PfisterSpikeTriplet
 
 # plastic weight spynnaker 8
 from spynnaker7_extra_pynn_models.neuron.plasticity.stdp.weight_dependence \
-    .weight_dependence_additive_triplet import \
-    WeightDependenceAdditiveTriplet
+    import WeightDependenceAdditiveTriplet
 
 import os
 
